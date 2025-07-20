@@ -432,7 +432,7 @@ section-heading h2 {
 .values-grid {
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
   text-transform: capitalize;
 }
 
