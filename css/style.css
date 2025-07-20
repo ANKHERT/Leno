@@ -318,11 +318,10 @@ section {
 
 
 .testimonials {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+     display: grid;
+     gap: 2rem;
+     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+     text-align: center;
 }
 
 .testimonials__card {
@@ -339,6 +338,7 @@ section {
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   margin-block-end: 2rem;
+  margin: 0 auto;
   
 }
 
@@ -802,8 +802,8 @@ section-heading h2 {
 
 .features__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  /* grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr)); */
+  /* grid-template-columns: repeat(3, 1fr);  */
+ grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) ); /* grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr)); */
   gap: 2rem;
   padding-block: 3rem;
 }
