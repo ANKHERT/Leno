@@ -5,129 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href=".images/home.jpg">
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
       integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./images/favicon.png">
-    <title>Leno App | Health and Productivity</title>
+      <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="css/reset.css">
+
+    <title>Cleaning Services |  West Midland and surrounding  </title>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar__container container">
-        <div class="navbar__logo">
-          <img src="./images/logo.svg" alt="leno">
+   
+    <header class="header">
+    
+      <div class="contact-info section">
+        <a href="">
+          <i class="fas fa-envelope"></i>contact@ndikams.co.uk
+        </a>
+        <div class="social">
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="tel:07448194871">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
         </div>
-        <div class="navbar__menu">
-          <ul class="navbar__menu-list">
-            <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link">Home</a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#features" class="navbar__menu-link">Features</a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#preview" class="navbar__menu-link">Preview</a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#details" class="navbar__menu-link">Details</a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#download" class="navbar__menu-link">Download</a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link--primary">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link--primary">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <!-- Mobile Menu & Hamburger Icon -->
-        <div class="navbar__mobile-menu">
-          <div class="navbar__mobile-menu-toggle">
-            <i class="fas fa-bars fa-2x"></i>
-          </div>
-          <!-- Mobile Menu Items -->
-          <div class="navbar__mobile-menu-items">
-            <ul class="navbar__mobile-menu-list">
-              <li class="navbar__mobile-menu-item">
-                <a href="#" class="navbar__mobile-menu-link">Home</a>
-              </li>
-              <li class="navbar__mobile-menu-item">
-                <a href="#features" class="navbar__mobile-menu-link">Features</a>
-              </li>
-              <li class="navbar__mobile-menu-item">
-                <a href="#preview" class="navbar__mobile-menu-link">Preview</a>
-              </li>
-              <li class="navbar__mobile-menu-item">
-                <a href="#details" class="navbar__mobile-menu-link">Details</a>
-              </li>
-              <li class="navbar__mobile-menu-item">
-                <a href="download" class="navbar__mobile-menu-link">Download</a>
-              </li>
-              <li class="navbar__mobile-menu-item">
-                <a href="#" class="navbar__mobile-menu-link--primary">
-                  <i class="fa-brands fa-facebook"></i>
-                </a>
-              </li>
-              <li class="navbar__mobile-menu-item">
-                <a href="#" class="navbar__mobile-menu-link--primary">
-                  <i class="fa-brands fa-twitter"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <a href="tel:07448194874">
+          <i class="fas fa-phone"></i>07448194874
+        </a>
+    
+    
       </div>
-    </nav>
-    <!-- Hero -->
-    <header class="hero">
-      <div class="hero__container container">
-        <div class="hero__content">
-          <h1 class="hero__title">
-            Your <span class="hero__title-primary">Productivity</span>
-            Assistant
-          </h1>
-          <p class="hero__description">
-            Boost your productivity and improve your health with Leno - the all-in-one app for developers and creators.
-          </p>
-          <div class="hero__buttons">
-            <a href="#download" class="hero_button btn">
-              <i class="fa-brands fa-apple"></i>
-              For Apple
-            </a>
-            <a href="#download" class="hero_button btn">
-              <i class="fa-brands fa-android"></i>
-              For Android
-            </a>
-          </div>
-        </div>
-        <div class="hero__image">
-          <img src="./images/header-smartphones.png" alt="hero">
-        </div>
-      </div>
+    
+      <nav class="navbar section">
+        <a href="home.html" class="logo">
+          <img src="images/logo.png" alt="">
+        </a>
+        <ul class="links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="services.html">services</a>
+          </li>
+          <li>
+            <a href="features.html">features</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+    
+        </ul>
+    
+        <a href="contact.html" class="btn btn-primary">get a free quote</a>
+    
+    
+        <div id="menu-btn" class="fa fa-bars"></div>
+    
+      </nav>
+    
     </header>
+    <!-- Hero -->
+     
+    <section class="hero" arial-label="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Your <span class="hero__title-primary">LUXURY</span>
+          Cleaning Services for Busy Pros
+        </h1>
+        <p class="hero__description">
+          When is the perfect time for you to get your properties cleaned in West Midland and surrounding
+          <!-- Impeccable homes, effortless living. -->
+        </p>
+        <div class="hero__buttons">
+          <a href="join-us.html" class="hero_button btn">
+            <i class="fa-solid fa-envelope"></i>
+            Contact Us
+          </a>
+          <a href="join-us.html" class="hero_button btn">
+            <i class="fa-solid fa-phone"></i>
+            Request a Free quote.
+          </a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="./images/home.jpg" alt="hero" width="600" height="400">
+      </div>
+    </section>
     <!-- Testimonials -->
-    <section class="testimonials" id="testimonials">
-      <div class="testimonials__container container">
+    <section class="testimonials">
+      
         <div class="testimonials__card">
           <div class="testimonials__image">
             <img src="./images/testimonial-1.jpg" alt="testimonial 1">
           </div>
           <div class="testimonials__card--content">
             <p class="testimonials__card-text">
-              "Leno has truly transformed how I manage my time and health. Highly recommended!"
+              "… . I was able to schedule a last minute cleaning  right before the Christmas holiday! The ladies were on time,
+              professional and made my home look brand new! Thank …"
             </p>
             <h3 class="testimonials__card-title">
-              Samantha Samson
+              Awo Merlin
             </h3>
           </div>
         </div>
@@ -137,7 +122,7 @@
           </div>
           <div class="testimonials__card--content">
             <p class="testimonials__card-text">
-              As a developer, I rely on Leno every day to keep me focused and energized. It's a game-changer!"
+              "Great employees who work very hard and are committed to the end product."
             </p>
             <h3 class="testimonials__card-title">
               Mike Johnson
@@ -150,32 +135,34 @@
           </div>
           <div class="testimonials__card--content">
             <p class="testimonials__card-text">
-              With Leno, I've been able to achieve my goals faster and healthier than ever before. It's a must-have app!
+              "Highly recommend Thoma Simon Cleaning Cleaning! They were on time and did an incredible job in our home. This was not our first time
+              paying for a deep clean by a professional service and yet it was the cleanest our home has ever been. They are
+              exceptional!"
             </p>
             <h3 class="testimonials__card-title">
               Laney Smith
             </h3>
           </div>
         </div>
-      </div>
+      
     </section>
     <!-- Features -->
-    <section class="features" id="features">
-      <div class="features__container container">
+    <section class="features">
+      <div class="features__container">
         <div class="features__content">
-          <h2 class="features__title">Key Takeaways</h2>
+          <h2 class="features__title">How to book Our Services</h2>
           <p class="features__description">
-            Discover the powerful features that make Leno the ultimate productivity and health companion:
+            Discover the powerful features that make <span class="thoma-span">THOMA SIMON CLEANING COMPANY</span> the ultimate productivity and cleaning companion:
           </p>
           <div class="features__grid">
             <div class="features__grid-column features__grid-column-left">
               <div class="features__grid-item">
                 <div class="features__grid-item-text">
                   <h4 class="features__grid-item-text-title">
-                    Real-Time Data
+                    Get a quote
                   </h4>
                   <p class="features__grid-item-text-description">
-                    Access real-time data instantly, ensuring you're always up-to-date with the latest information.
+                    Simply click the get a request a free quote button, fill out the information and we will call you within 24 hours
                   </p>
                 </div>
                 <div class="features__grid-item-icon">
@@ -185,10 +172,10 @@
               <div class="features__grid-item">
                 <div class="features__grid-item-text">
                   <h4 class="features__grid-item-text-title">
-                    Visual Editor
+                    Provide necessary info.
                   </h4>
                   <p class="features__grid-item-text-description">
-                    Customize your workspace with our intuitive visual editor.
+                    Share details about your property, such as the number of bedrooms, and any specific areas that need extra attention.
                   </p>
                 </div>
                 <div class="features__grid-item-icon">
@@ -198,10 +185,10 @@
               <div class="features__grid-item">
                 <div class="features__grid-item-text">
                   <h4 class="features__grid-item-text-title">
-                    Refined Options
+                    Tracking the process.
                   </h4>
                   <p class="features__grid-item-text-description">
-                    Access a wide range of refined options to tailor Leno to your unique needs.
+                    The team provides support around the clock, 24hours a day, 7 days a week. 
                   </p>
                 </div>
                 <div class="features__grid-item-icon">
@@ -210,16 +197,16 @@
               </div>
             </div>
             <div class="features__grid-column features__grid-column-center">
-              <img src="./images/features-smartphone-1.png" alt="">
+              <img src="./images/features.jpg" alt="">
             </div>
             <div class="features__grid-column features__grid-column-right">
               <div class="features__grid-item">
                 <div class="features__grid-item-text">
                   <h4 class="features__grid-item-text-title">
-                    Calendar Input
+                    Schedule in your cleaning visit.
                   </h4>
                   <p class="features__grid-item-text-description">
-                    Seamlessly integrate your calendar to stay organized and on track.
+                    Once you've selected a date we will email a booking confirmation.
                   </p>
                 </div>
                 <div class="features__grid-item-icon">
@@ -229,10 +216,10 @@
               <div class="features__grid-item">
                 <div class="features__grid-item-text">
                   <h4 class="features__grid-item-text-title">
-                    Easy Reading
+                    Enjoy your clean home
                   </h4>
                   <p class="features__grid-item-text-description">
-                    Enjoy distraction-free reading with Leno's clean and intuitive interface.
+                    Our high quality clean will provide you with a sigh of relief after a busy day.
                   </p>
                 </div>
                 <div class="features__grid-item-icon">
@@ -242,10 +229,10 @@
               <div class="features__grid-item">
                 <div class="features__grid-item-text">
                   <h4 class="features__grid-item-text-title">
-                    Good Foundation
+                    review
                   </h4>
                   <p class="features__grid-item-text-description">
-                    Leno is built on a solid foundation of user feedback and cutting-edge technology.
+                    Thoma Simon Cleaning  is built on a solid foundation of user feedback.
                   </p>
                 </div>
                 <div class="features__grid-item-icon">
@@ -257,191 +244,155 @@
         </div>
       </div>
     </section>
-    <!-- Modal -->
-    <div class="modal" id="videoModal">
-      <div class="modal__content">
-        <span class="modal__close-button">&times;</span>
-        <iframe src=""
-            frameborder="0"
-            id="videoPlayer"
-            width="600"
-            height="320"
-            frameborder="0"
-            allowfullscreen
-            ></iframe>
-      </div>
-    </div>
-    <!-- preview -->
-    <section class="preview" id="preview">
-      <div class="preview__container container">
-        <div class="preview__content">
-          <h2 class="preview__title">Preview</h2>
-          <p class="preview__description">
-            Take a sneak peek at Leno's sleek and intuitive interface:
-          </p>
-          <div class="preview__image-container">
-            <div class="preview__video-wrapper">
-              <img src="./images/video-frame.jpg" alt="">
-              <button class="preview__video-button">
-                <span class="preview__video-play-button">
-                  <span></span>
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- details -->
+    
+   <!-- details -->
     <section class="details" id="details">
-      <div class="details__container container">
-          <div class="details__grid">
-             <div class="details__grid-image">
-                <img src="./images/details-1.png" alt="">
-             </div>
-            <div class="details__grid-content">
-              <h3 class="details__grid-heading">
-                Start using Leno today and set your long term goals
-              </h3>
-              <p class="details__grid-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil blanditiis perferendis iure accusamus enim
-                expedita asperiores iste libero cum!
-              </p>
-              <a href="details.html" class="details__grid-buton btn">More</a>
-            </div>
-           
-            <div class="details__grid-content">
-              <h3 class="details__grid-heading">
-               The calendar feature helps you schedule tasks
-              </h3>
-              <p class="details__grid-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil blanditiis perferendis iure accusamus enim
-                expedita asperiores iste libero cum!
-              </p>
-              <a href="#details.html" class="details__grid-buton btn">More</a>
-            </div>
-              <div class="details__grid-image">
-                <img src="./images/details-2.png" alt="">
-              </div>
+       <div class="details__grid-image">
+            <img src="./images/details-1.jpg" alt="">
           </div>
-          <!-- icons -->
+          <div class="details__grid-content">
+            <h3 class="details__grid-heading">
+              Start using  <span class="thoma-span">THOMA SIMON CLEANING COMPANY</span>   today and set your long term goals
+            </h3>
+            <p class="details__grid-description">
+              With us, excellence is never sacrificed. Every area we clean gains from our elevated standard method, guaranteeing you
+              consistently enter a pristine space
+            </p>
+            <a href="details.html" class="details__grid-buton btn">CALL THOMA SIMON OFFICE</a>
+          </div>
+    </section>
+    <section class="details-grid">
+         <div class="details__grid-content">
+            <h3 class="details__grid-heading">
+            Start your entrepreneurial path alongside us
+            </h3>
+            <p class="details__grid-description">
+              We are currently searching for franchises to oversee our cleaning services for offices, student residences, homes, and
+              commercial properties. Embrace the possibilities and uncover the advantages of operating your own business with <span class="thoma-span">SIMON
+              THOMA CLEANING</span>  service's outstanding franchise opportunity
+            </p>
+            <a href="#details.html" class="details__grid-buton btn">GET IN TOUCH WITH US</a>
+          </div>
+          <div class="details__grid-image">
+            <img src="./images/details-2.jpg" alt="">
+          </div>
+    </section>
+    <!-- icons -->
+     <section class="icons">
           <div class="details_icons">
             <div class="details__icons-item">
               <i class="fas fa-users fa-4x"></i>
-              <div class="details__icons-amount">33.45</div>
+              <div class="details__icons-amount">400+</div>
               <h4 class="details_icons-titlle">Happy Customer</h4>
             </div>
-            <div class="details__icons-item">
-              <i class="fas fa-code fa-4x"></i>
-              <div class="details__icons-amount">34.678</div>
-              <h4 class="details_icons-titlle">Issues</h4>
-            </div>
+           
             <div class="details__icons-item">
               <i class="fas fa-rocket fa-4x"></i>
-              <div class="details__icons-amount">33.765</div>
+              <div class="details__icons-amount">224+</div>
               <h4 class="details_icons-titlle">Good Reviews</h4>
             </div>
             <div class="details__icons-item">
               <i class="fas fa-edit fa-4x"></i>
-              <div class="details__icons-amount">33.45</div>
+              <div class="details__icons-amount">123+</div>
               <h4 class="details_icons-titlle">case studies</h4>
             </div>
             <div class="details__icons-item">
               <i class="fas fa-edit fa-4x"></i>
-              <div class="details__icons-amount">44.45</div>
-              <h4 class="details_icons-titlle">particulais case</h4>
+              <div class="details__icons-amount">44+</div>
+              <h4 class="details_icons-titlle">particulars case</h4>
             </div>
-          </div>
-      </div>
-    </section>
+        </div>
+      </section>
     <!-- screenshot -->
     <section class="screenshots" id="screenshots">
-       <div class="screenshots__container container">
-         <div class="screenshots__content">
-           <h2 class="screenshots__title">
-            Screenshots 
-           </h2>
-           <div class="screenshot__image">
-             <img src="./images/screenshot-1.png" alt="">
-             <img src="./images/screenshot-2.png" alt="">
-             <img src="./images/screenshot-3.png" alt="">
-             <img src="./images/screenshot-4.png" alt="">
-             <img src="./images/screenshot-5.png" alt="">
-           </div>
-         </div>
-       </div>
+     
+        <div class="screenshots__content">
+          <h2 class="screenshots__title">
+            Screenshots
+          </h2>
+          <div class="screenshot__image">
+            <img src="./images/screenshot-1.png" alt="">
+            <img src="./images/screenshot-2.png" alt="">
+            <img src="./images/screenshot-3.png" alt="">
+            <img src="./images/screenshot-4.png" alt="">
+            <img src="./images/screenshot-5.png" alt="">
+          </div>
+        
+      </div>
     </section>
     <section class="download" id="download">
-       <div class="download__container container">
-          <div class="download_content">
-           <p class="download-description">
-            Download Leno today to see the benefits and enjoy the results faster than any other app out there
-           </p>
-           <div class="download__buttons">
-             <a href="details.html" class="download__button btn">
-               <i class="fa-brands fa-apple"></i>
-               Apple
-             </a>
-             <a href="details.html" class="download__button btn">
-               <i class="fa-brands fa-android"></i>
-               Android
-             </a>
-           </div>
+      
+        <div class="download_content">
+          <p class="download-description">
+            Call or Email <span class="thoma-span">THOMA SIMON CLEANING COMPANY</span>  today to see the benefits and enjoy the results faster than any other cleaning company  out there.
+          </p>
+          <div class="download__buttons">
+            <a href="details.html" class="hero_button btn">
+              <i class="fa-solid fa-phone"></i>
+              Call us
+            </a>
+            <a href="details.html" class="hero_button btn">
+              <i class="fa-solid fa-envelope"></i>
+              Email us
+            </a>
           </div>
-          <div class="download_image">
-            <img src="./images/download.png" alt="">
-          </div>
-       </div>
+        </div>
+        <div class="download_image">
+          <img src="./images/download.png" alt="">
+        </div>
+      
     </section>
     <!-- footer -->
-    <footer class="footer">
-      <div class="footer__container container">
-         <div class="footer__about">
-            <h4 class="footer__title">About Leno</h4>
-            <p class="footer__description">
-              Leno is a mobile app that helps you stay focused and improve your productivity. The app provides you with tools to set
-              goals, track your progress, and maintain a healthy work-life balance.
+    <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>Thoma Simon Cleaning Company</h3>
+            <p><span class="thoma-span">Thoma Simon Cleaning Company </span> provides high quality cleaning and maintenance services
+              tailored to your needs.
+              We have extensive professional cleaning experience to ensure a smooth service transition.
             </p>
-         </div>
-         <div class="footer__links">
-            <h4 class="footer__title">Quick Links</h4>
-            <ul class="footer__links-list">
-               <li class="footer__links-item">
-                  <a href="#" class="footer__links-link">Home</a>
-               </li>
-               <li class="footer__links-item">
-                  <a href="#testimonials" class="footer__links-link">Testimonials</a>
-               </li>
-               <li class="footer__links-item">
-                  <a href="#features" class="footer__links-link">Features</a>
-               </li>
-               <li class="footer__links-item">
-                  <a href="#preview" class="footer__links-link">Preview</a>
-               </li>
-               <li class="footer__links-item">
-                  <a href="#details" class="footer__links-link">Details</a>
-               </li>
-               <li class="footer__links-item">
-                  <a href="#download" class="footer__links-link">Download</a>
-               </li>
-            </ul>
-         </div>
-         <div class="footer__social">
-           <a href="#" class="social__link">
-             <i class="fa-brands fa-facebook fa-3x"></i>
-           </a>
-           <a href="#" class="social__link">
-             <i class="fa-brands fa-twitter fa-3x"></i>
-           </a>
-           <a href="#" class="social__link">
-             <i class="fa-brands fa-instagram fa-3x"></i>
-           </a>
-           <a href="#" class="social__link">
-             <i class="fa-brands fa-youtube fa-3x"></i>
-           </a>
-         </div>
-      </div>
-    </footer>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="tel:07448194874" class="fab fa-whatsapp"></a>
+            </div>
+          </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+          <a class="link" href="#about"> <i class="fas fa-angle-right"></i> about</a>
+          <a class="link" href="#services"> <i class="fas fa-angle-right"></i> services</a>
+      
+          <a class="link" href="#features"> <i class="fas fa-angle-right"></i> features</a>
+          <a class="link" href="#contact"> <i class="fas fa-angle-right"></i> contact</a>
+        </div>
+        <div class="box">
+          <h3>cleaning services</h3>
+          <a class="link" href="#home"> <i class="fas fa-angle-right"></i>aged care cleaning services</a>
+          <a class="link" href="#about"> <i class="fas fa-angle-right"></i>apartment cleaning</a>
+          <a class="link" href="#services"> <i class="fas fa-angle-right"></i>office cleaning</a>
+          <a class="link" href="#contact"> <i class="fas fa-angle-right"></i>commercial cleaning(nationwide)</a>
+          <a class="link" href="#contact"> <i class="fas fa-angle-right"></i>residential cleaning(nationwide)</a>
+        </div>
+        <div class="box">
+          <h3>opening hours</h3>
+          <p> <span class="thoma-span">Monday :</span> 07:00am to 11:09pm </p>
+          <p> <span class="thoma-span">Tuesday :</span> 07:00am to 11:09pm </p>
+          <p> <span class="thoma-span">Wednesday :</span> 07:00am to 11:09pm </p>
+          <p> <span class="thoma-span">Thursday :</span> 07:00am to 11:09pm </p>
+          <p> <span class="thoma-span">Friday :</span> 07:00am to 11:09pm </p>
+      
+          <p> <span class="thoma-span">Saturday :</span> 07:00am to 11:09pm </p>
+          <p> <span class="thoma-span">Sunday :</span> closed </p>
+        </div>
+        </div>
+    </section>
+      <p class="credit container">
+        &copy; 2025 <a href=""><span class="thoma-span">Thoma Simon Cleaning Company</span></a>| all rights reserved!
+      </p>
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon><i class="fa-solid fa-chevron-up"></i>
+    </a>
+
     <script src="js/script.js"></script>
   </body>
 </html>
